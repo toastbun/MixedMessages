@@ -10,3 +10,11 @@ let luckyColor = colors[randomizer(colors)]
 let luckyNumber = numbers[randomizer(numbers)]
 let luckyFortune = fortunes[randomizer(fortunes)]
 
+const yourfortune = () => {
+    console.log(`Today's lucky color is ${luckyColor}. Today's lucky number is ${luckyNumber}. Your fortune today is: ${luckyFortune} 
+    
+    Thanks for playing. - Madame Omu`)
+
+}
+
+yourfortune();
