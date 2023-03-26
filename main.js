@@ -1,48 +1,5 @@
-const partOne = () => {
-    let randomLine = Math.floor(Math.random() * 9)
-    switch(randomLine) {
-        case 0:
-            return "red"
-            break;
-        case 1:
-            return "orange"
-            break;
-        case 2:
-            return "yellow"
-            break;
-        case 3:
-            return "green"
-            break;
-        case 4:
-            return "blue"
-            break;
-        case 5:
-            return "purple"
-            break;
-        case 6: 
-            return "silver"
-            break;
-        case 7: 
-            return "gold"
-            break;
-        case 8:
-            return "white"
-            break;
-        default:
-            return "error"
-            break
-    }
-
-}
-
-const partTwo = () => {
-    let randomLine = Math.floor(Math.random() * 9)
-    
-}
-
-const partThree = () => {
-    let randomLine = Math.floor(Math.random() * 9)
-    
-}
+const colors = ["red", "orange", "yellow", "green", "blue", "purple", "gold", "white", "silver", "black"]
+const numbers = [1, 7, 13, 26, 19, 11, 9, 3, 69]
+const fortunes = ["You are having a bad hair day.", "You will meet your soulmate.", "You will get a dog.", "The next game you play, you will win!", "Go back to sleep.", "Error."]
 
 
