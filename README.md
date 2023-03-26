@@ -1,7 +1,7 @@
 # MixedMessages
 -----
 
-When the program is run it spits out a random fortune consisting of lucky color, number, and a short sentence about your day.
+When the program is run it spits out a random fortune consisting of lucky color, number, and a short sentence about your day. Tool utilizes arrays, built in methods, and functions.
 
 
 ## Project Objectives
